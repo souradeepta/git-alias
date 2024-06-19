@@ -25,7 +25,7 @@ git config --global alias.back "checkout -"
 git config --global alias.st "status"
 
 Aliases List
-
+```
     logg - Log with One Line, Graph, and Decorations
         Displays a compact log with one line per commit, graph visualization, and decorations.
 
@@ -73,7 +73,7 @@ Aliases List
 
     st - Status
         Shortcut for git status.
-
+```
 Contributing
 
 Feel free to contribute more aliases or improvements! Fork this repository, add your aliases, and submit a pull request.
