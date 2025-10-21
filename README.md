@@ -73,6 +73,18 @@ Aliases List
 
     st - Status
         Shortcut for git status.
+
+Run `git config --global --edit` to open the file OS agnostic and edit it on your terminal.
+Or run `vi ~/.gitconfig` to edit in your Nix machine. Sample included in repo.
+
+You can then run:
+```
+git config --global --get-regexp alias
+```
+This will list all your configured aliases and confirm that they were added correctly.
+
+
+
 ```
 Contributing
 
