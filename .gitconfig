@@ -1,0 +1,17 @@
+[alias]
+	logg = log --oneline --graph --decorate
+	state = !git fetch origin && git remote show origin && :
+	sync = !git fetch origin && git remote prune origin && :
+	s = status
+	co = checkout
+	br = branch
+	ci = commit
+	cob = checkout -b
+	del = branch -D
+	save = !git add -A && git commit -m
+	undo = reset --soft HEAD^
+	res = !git reset --hard
+	done = !git push origin HEAD
+	ali = config --global --get-regexp alias
+	back = checkout -
+	st = status
